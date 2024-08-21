@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: none; /* Remove background */ /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 100vh;
+    background: none;
+}
+
+.login-box {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: none; /* Slightly opaque white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    backdrop-filter: blur(10px); /* Background blur effect */
+}
+
+.welcome-section, .login-section {
+    padding: 40px;
+    width: 50%;
+}
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.welcome-section h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.welcome-section p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color:#A98273
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.login-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #A98273;
+}
+
+.login-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: #333;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.signup-link {
+    margin-top: 20px;
+}
+
+.terms {
+    font-size: 0.9rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.terms a {
+    color: #333;
+    text-decoration: none;
+}
